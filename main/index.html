@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HOTEL - Relajation And You</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="../img/icono.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1><span><a href="../login/index.html"><img src="../img/logo.svg" id="logo" title="Iniciar Sesión"></a></span> HOTEL RAY</h1>
+
+        <nav class="barraNavegacion">
+            <a href="../main/index.html" class="menu" id="item1">INICIO</a>
+            <a href="#reserva" class="menu" id="item2">RESERVAR</a>
+        </nav>
+
+    </header>        
+
+    <section id="contenido">
+
+        <br><br><br>
+
+        <article id="introduccion">
+            <p>El Hotel Relajation And You (RAY) es un lugar perfecto para escapar del estrés y la rutina diaria. Está ubicado en un natural impresionante, rodeado de montañas, playas y exuberante vegetación. Aquí podrá disfrutar de la paz y tranquilidad que tanto necesita, además de una gran variedad de actividades y servicios para toda la familia.</p>
+
+            <div class="slider">
+                <ul>
+                    <li><img src="../img/1.png" title="Vista Frontal" alt="Imagen Vista Frontal" class="img" height="400px"></li>
+                    <li><img src="../img/2.png" title="Vista Trasera" alt="Imagen Vista Trasera" class="img" height="400px"></li>
+                    <li><img src="../img/3.png" title="Vista Piscinas" alt="Imagen Vista Piscinas" class="img" height="400px"></li>
+                    <li><img src="../img/4.png" title="Vista Recepción" alt="Imagen Vista Recepción" class="img" height="400px"></li>
+                    <li><img src="../img/5.png" title="Vista Comedor" alt="Imagen Vista Comedor" class="img" height="400px"></li>
+                    <li><img src="../img/6.png" title="Vista SPA" alt="Imagen Vista SPA" class="img" height="400px"></li>
+                    <li><img src="../img/7.png" title="Vista Habitación" alt="Imagen Vista Habitación" class="img" height="400px"></li>
+                    <li><img src="../img/8.png" title="Vista Gimnasio" alt="Imagen Vista Gimnasio" class="img" height="400px"></li>
+                </ul>
+            </div> 
+        </article>
+    
+        <br id="reserva"><br><br><br><br>
+        
+        <section id="reservacion">
+
+            <h2 id="reservar">Reservar una habitación</h2>
+            <p id="instruccion">Para proceder con la reserva de su habitación, necesitamos recopilar algunos datos personales e información sobre su estancia. Esta información nos ayudará a garantizar una experiencia personalizada y cómoda para usted.</p>
+        
+            <p id="aviso"><i>* indica un campo obligatorio a rellenar</i></p>
+        
+            <form>
+        
+                <label for="nombres"><b>* Nombre(s)</b></label>
+                <input type="text" name="Nombres" id="nombres" placeholder="Nombre(s)" size="25">
+
+                <label for="apellidos"><b>* Apellidos(s)</b></label>
+                <input type="text" name="Apellidos" id="apellidos" placeholder="Apellido(s)" size="25">
+                
+                <br><br>
+        
+                <label for="cedula"><b>* Cédula</b></label>
+                <select name="Tipo de Cédula" class="aux">
+                    <option value="Venezolano">V</option>
+                    <option value="Extranjero">E</option>
+                </select>
+                <input type="text" name="Cédula de Identidad" id="cedula" placeholder="Cédula de Identidad" maxlength="8" size="15">
+        
+                <label for="contacto"><b>* Número de Teléfono</b></label>
+                <select name="Contacto" class="aux">
+                    <option value="Digitel">0412</option>
+                    <option value="Movistar">0414</option>
+                    <option value="Movilnet">0416</option>
+                    <option value="Movistar">0424</option>
+                    <option value="Movilnet">0426</option>
+                </select>
+                <input type="text" name="Contacto" id="contacto" placeholder="XXXXXXX" maxlength="7" minlength="7" size="5">
+                
+                <br><br>
+        
+                <label><b>* ¿Qué tipo de habitación desea?</b></label>
+                <select name="Tipo de habitación">
+                    <option value="Individual">1 cama individual + Baño</option>
+                    <option value="Pareja">1 cama matrimonial + Baño</option>
+                    <option value="Compartida">2 camas individuales + 2 baños</option>
+                    <option value="Familiar">1 cama matrimonial + 2 camas individuales + 2 baños</option>
+                </select>
+        
+                <br><br>
+        
+                <div id="extras">
+                    <label><b>Extras</b></label>
+                    <br><br>
+                    <input type="checkbox" name="camaExtra" class="opcional" id="camaExtra">
+                    <label for="camaExtra">Cama/s extra/s</label>
+                    <input type="checkbox" name="servicioHabitacion" class="opcional" id="servicioHabitacion" checked>
+                    <label for="servicioHabitacion">Servicio de habitación</label>
+                    <input type="checkbox" name="serviciosRopa" class="opcional" id="serviciosRopa">
+                    <label for="serviciosRopa">Servicio de lavandería y planchado</label>
+                    <br><br>
+                    <input type="checkbox" name="zonaPiscina" class="opcional" id="zonaPiscina">
+                    <label for="zonaPiscina">Zona de Piscina</label>
+                    <input type="checkbox" name="zonaGimnasio" class="opcional" id="zonaGimnasio">
+                    <label for="zonaGimnasio">Gimnasio</label>
+                    <input type="checkbox" name="centroRelajacion" class="opcional" id="centroRelajacion">
+                    <label for="centroRelajacion">Centro de relajación</label>
+                </div>
+                
+                <br><br>
+                
+                <label for="fechaInicio"><b>* Fecha de Inicio</b></label>
+                <input type="date" name="Fecha de Inicio" id="fechaInicio">
+                <label for="fechaFinal"><b>* Fecha de Finalización</b></label>
+                <input type="date" name="Fecha Final" id="fechaFinal">
+        
+                <br><br><br><br>
+        
+                <!--cree un botón para que al presionarlo la información sea enviada a otro
+                archivo, en este caso solo sería un caso hipotético y no sería funcional realmente-->
+                <button type="button" id="btnConsulta"><a href="../reservacion/index.html" id="botonConsulta">CONSULTAR DISPONIBILIDAD</a></button>
+                    
+                <br><br>
+
+            </form>
+        </section>
+    </section>
+
+    <br><br>
+
+    <footer>
+        <hr>
+        <p>Todos los derechos reservados © 2024 - Kevin Montilla</p>
+    </footer>
+    
+</body>
+</html>
