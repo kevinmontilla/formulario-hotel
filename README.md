@@ -27,6 +27,7 @@ formulario-hotel/
 ├── img/             # Imágenes y recursos gráficos
 ├── main/            # Página principal, donde se rellena el formulario
 ├── reservacion/     # Página de "confirmación" de reserva
+├── screenshots/     # Capturas de pantalla para la documentación (README)
 ├── index.html       # Página inicial donde se "inicia sesión"
 ├── estilo.css       # Hoja de estilos de la página inicial
 └── README.md        # Documentación del proyecto
