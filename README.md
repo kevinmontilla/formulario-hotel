@@ -4,6 +4,8 @@ Este proyecto consiste en la maquetación de una interfaz web para realizar rese
 
 > **Nota:** Este es un proyecto frontend con fines educativos. El formulario no procesa datos en el servidor (backend).
 
+<img src="screenshots/Interfaz.gif" alt="Interfaz Principal" width="700"/>
+
 ## Características
 
 - **Diseño Visual:** Interfaz limpia y estructurada para la captura de datos de reservación.
